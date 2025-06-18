@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 221, 200);
+    height: 200vh;
+    border: 3px solid brown;
+    align-items: center;
+}
+.flex-container div{
+    background-color: aqua;
+    border: 2px solid blue;
+    height: 300px;
+    width: 500px;
+}
+.two{
+    flex-shrink: 2;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: aquamarine;
+}
+
+@media (max-width:470px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
